@@ -16,5 +16,4 @@ def my_func():
     else:
         x = -b / 2*a
         print("Дискриминант равен 0, один корень ", x)
-def dump_data():
-    file = open('my_func.txt','w')
+my_func()
